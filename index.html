@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Physics Nerd Portfolio</title>
+  <!-- Google Font: Fira Code for nerdy monospaced style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0d0d0d;
+      --dot-color: #1e1e1e;
+      --text-color: #e0e0e0;
+      --accent-color: #00d1ff;
+      --font-main: 'Fira Code', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      min-height: 100vh;
+      background-image: radial-gradient(var(--dot-color) 1px, transparent 1px);
+      background-size: 20px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .profile {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--dot-color);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 209, 255, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .profile:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px rgba(0, 209, 255, 0.3);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: var(--accent-color);
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin: 1rem 0 0.5rem;
+      color: #b0b0ff;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .footer {
+      grid-column: 1 / -1;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Maxwell Byte -->
+    <div class="profile">
+      <h1>🧠 Maxwell Byte</h1>
+      <h2>⚛️ Physics Enthusiast & Frontend Dev</h2>
+      <p>I code with constants and create with quarks. My passion lies at the intersection of theoretical physics and modern web design.</p>
+      <h2>🔭 Skills</h2>
+      <p>Quantum Mechanics, Relativity, HTML/CSS, JavaScript, React</p>
+      <h2>🧪 Projects</h2>
+      <p><strong>WaveFunction Visualizer</strong> – Quantum wave simulator.</p>
+      <p><strong>Relativistic Portfolio</strong> – Physics-themed portfolio site.</p>
+      <h2>📡 Contact</h2>
+      <p>Email: maxwell@nerdlabs.dev</p>
+    </div>
+
+    <!-- Anuprash Developer -->
+    <div class="profile">
+      <h1>💻 Anuprash Developer</h1>
+      <h2>🧠 Code Alchemist & Simulation Designer</h2>
+      <p>Bridging computational physics and design. I build tools that bring equations to life.</p>
+      <h2>🔭 Skills</h2>
+      <p>Computational Physics, Python, WebAssembly, OpenGL</p>
+      <h2>🧪 Projects</h2>
+      <p><strong>AtomSim</strong> – Atomic particle simulator.</p>
+      <p><strong>FieldLines</strong> – Real-time electric field lines.</p>
+      <h2>📡 Contact</h2>
+      <p>Email: anuprash@devlabs.net</p>
+    </div>
+
+    <!-- Partho -->
+    <div class="profile">
+      <h1>📸 Partho</h1>
+      <h2>🔬 Classical Physicist & Photographer</h2>
+      <p>I explore classical mechanics and express it through photography and design.</p>
+      <h2>🔭 Skills</h2>
+      <p>Mechanics, Thermo, Lightroom, Vue.js</p>
+      <h2>🧪 Projects</h2>
+      <p><strong>LensOfLaws</strong> – Physics-themed photo blog.</p>
+      <p><strong>Equilibra</strong> – Visual balance through photography.</p>
+      <h2>📡 Contact</h2>
+      <p>Email: partho@physicsphoto.com</p>
+    </div>
+
+    <!-- Khalid -->
+    <div class="profile">
+      <h1>📷 Khalid</h1>
+      <h2>🪐 Astrophotographer & Visual Coder</h2>
+      <p>I document the cosmos with a lens and code the stars into visual data tools.</p>
+      <h2>🔭 Skills</h2>
+      <p>Astrophotography, D3.js, Python, PixInsight</p>
+      <h2>🧪 Projects</h2>
+      <p><strong>MilkyTrace</strong> – Milky Way time-lapse engine.</p>
+      <p><strong>SkyData</strong> – Catalog of stars with overlays.</p>
+      <h2>📡 Contact</h2>
+      <p>Email: khalid@nightlens.dev</p>
+    </div>
+
+    <div class="footer">
+      Built with ℏ, 🧮, and ⚡ in 2025.
+    </div>
+  </div>
+</body>
+</html>
